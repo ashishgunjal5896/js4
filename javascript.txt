@@ -1,0 +1,31 @@
+<script>
+var string="ashish";
+ if(string.length==0){
+ document.write(""+char)
+ }
+  
+
+  var char = string.charAt(0);
+  if(string.lastIndexOf(char) == 0){
+   document.write(""+char)
+
+  }
+  
+
+  for(var i = 1; i < string.length-1; ++i)
+  {
+    char = string.charAt(i);
+    if(string.lastIndexOf(char)==i && string.indexOf(char)==i){
+     document.write(""+char)
+
+    }
+      
+  }
+
+  char = string.charAt(string.length-1);
+  if(string.indexOf(char)==string.length-1){
+   document.write(""+char)
+
+  }
+   
+</script>
